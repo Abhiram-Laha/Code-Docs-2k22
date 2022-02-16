@@ -19,6 +19,7 @@ int main(){
    // cout<<dcr;
 
     double root1,root2;
+    
 
     if (dcr>0){
         root1=( -b + sqrt( dcr ) / 2*a );
