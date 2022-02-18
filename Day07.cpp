@@ -15,6 +15,7 @@ int main(){
     for (int i=1; i<=term; i++){
         cout<<n<< " x "<<i<<" = "<<n*i<<endl;
     }
+    
 
 return 0;
 }
