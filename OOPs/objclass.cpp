@@ -53,7 +53,8 @@ int main(){
 
 
 
-    Hero Rock;
+    Hero Rock;                //object 3
+    
 
     Rock.Name="Rock";
     Rock.Health=95;
