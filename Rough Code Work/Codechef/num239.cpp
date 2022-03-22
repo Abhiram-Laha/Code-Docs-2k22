@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+ 
+int main(){
+
+    int l,r;
+    cout<<"Enter : ";
+    cin>>l>>r;
+
+    int count=0;
+
+    for (int i=l; i<=r; i++){
+
+        if (i%10==2 or i%10==3 or i%10==9 ){
+            count++;
+        }
+    }
+
+    cout<<count<<endl;
+return 0;
+}
