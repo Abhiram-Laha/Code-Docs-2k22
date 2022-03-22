@@ -38,6 +38,8 @@ int main(){
 
     cout<<"\nThe Area of the Room is : "<<hotel1.area()<<endl;
 
+   // hotel1.length=250;  inaccesible due to private part
+
 
 return 0;
 }
