@@ -9,9 +9,22 @@ using namespace std;
  
 int main(){
 
-    vector<int> x={2,8};                 // data intialization
+    int n,a;
 
-    cout<<"Array : ";
+    vector<int> x;  //={2,8};                 // data intialization
+    
+
+    cout<<"Enter the Size of Array : ";
+    cin>>n;
+
+    cout<<"Enter the Array : ";
+    
+    for (int i=0; i<n; i++){
+        cin>>a;
+        x.push_back(a);
+    }
+
+    cout<<"\nArray : ";
     for (int i=0; i<x.size(); i++){
         cout<<x[i]<<" ";
     }
@@ -57,12 +70,12 @@ int main(){
 
     cout<<"\n\nBefore Swap : ";
     cout<<"\nArray x : ";
-    for (int i=0; i<x.size(); i++){
+    for (int i=0; i<y.size(); i++){
         cout<<x[i]<<" ";
     }
     
     cout<<"\nArray y : ";
-    for (int i=0; i<x.size(); i++){
+    for (int i=0; i<y.size(); i++){
         cout<<y[i]<<" ";
     }
 
@@ -71,12 +84,12 @@ int main(){
 
     cout<<"\n\nAfter Swap : ";
     cout<<"\nArray x : ";
-    for (int i=0; i<x.size(); i++){
+    for (int i=0; i<y.size(); i++){
         cout<<x[i]<<" ";
     }
     
     cout<<"\nArray y : ";
-    for (int i=0; i<x.size(); i++){
+    for (int i=0; i<y.size(); i++){
         cout<<y[i]<<" ";
     }
 
