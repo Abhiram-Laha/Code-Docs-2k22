@@ -102,22 +102,7 @@ int main(){
     else{
         cout<<"\nArray is not Empty.";
     }
-   
-    
-
-
-
-
-
-
-
 
     return 0;
 
 }
-    
-
-
-
-
-
