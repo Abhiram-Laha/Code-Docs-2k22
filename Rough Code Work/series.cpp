@@ -13,13 +13,14 @@ int fac(int x){
  
 int main(){
     int n;
-    n=3;
+    cout<<"Enter n : ";
+    cin>>n;
     
-    float sum=0;
+    long long int sum=0;
     for (int i=2; i<=n; i++){
 
         int inner=pow(n,i);
-        sum+=pow(fac(i),i)/( fac(i)*  log10(inner)  );
+        sum+=fac(i)/( fac(i)*log10(inner)  );
     }
 
     int a= sum*10000;
@@ -31,7 +32,7 @@ int main(){
         a/=10;
     }
 
-    cout<<"\nSum : "<<sum<<" G "<<asum;
+    cout<<"\nSum : "<<sum<<"\nSum of the Digits : "<<asum;
 
 return 0;
 }
