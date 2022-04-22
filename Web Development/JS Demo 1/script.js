@@ -4,5 +4,9 @@ Hello.addEventListener('click', inputMsg);
 
 function inputMsg() {
     let name = prompt('What is Your Name ??');
-    article.textContent = 'Hello ' + name ;
+    if (name!=null){
+        article.textContent = 'Hello ' + name ;
+
+    }
+    
 }
