@@ -4,11 +4,13 @@
 
 using namespace std;
 
-void showdt(queue<int> x){
+void showdt(queue<int> g){
 
-    for(int i=1; i<=x.size(); i++){
-        cout<<x.front()<<" ";
+     while (!g.empty()) {
+        cout<<" " << g.front();
+        g.pop();
     }
+    cout << '\n';
 }
  
 int main(){
@@ -18,10 +20,22 @@ int main(){
     num.push(7);
     num.push(2);
     num.push(9);
-    num.push(7);
-    num.push(7);
-    num.push(7);
-    num.push(7);
+    num.push(1);
+    num.push(3);
+    num.push(11);
+    num.push(12);
+    
+
+    cout<<"\nSize of the Queue : "<<num.size();
+
+    cout<<"\nQueue : ";
+    showdt(num);
+
+    num.pop();
+    
+    cout<<"\nQueue after pop : ";
+    showdt(num);
+
 
 return 0;
 }
