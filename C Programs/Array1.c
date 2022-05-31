@@ -2,22 +2,24 @@
 
 int main(){
 
-    float arr[10],sum=0;
+    int n,arr[n],sum=0;
+    printf("Enter n : ");
+    scanf("%d",&n);
 
-    printf("Enter 10 values : ");
+    printf("Enter values : ");
 
     for(int i=0; i<10; i++){
-        scanf("%f",&arr[i]);
+        scanf("%d",&arr[i]);
         sum+=arr[i];
     }
     
     printf("\n");
 
     for (int i=0; i<10; i++){
-        printf("x[ %d] = %.2f \n",i+1,arr[i]);
+        printf("x[ %d] = %d \n",i+1,arr[i]);
     }
 
-    printf("\nTotal : %.2f",sum);
+    printf("\nTotal : %d",sum);
 
     
 
