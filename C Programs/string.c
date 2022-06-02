@@ -10,7 +10,7 @@ void printstr(char str[]){
 
 int main(){
     char str1[]="Hello World";
-    printf("Str 1 : ",printstr(str1));-+++++++++++++++++++++++++++++++++++++
+    printf("Str 1 : ",printstr(str1));
 
 
 
