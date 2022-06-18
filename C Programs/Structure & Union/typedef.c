@@ -15,8 +15,8 @@ void prt(car arr[],int n){
 
 
 int main(){
-   // car c1={"Honda",5,32.5};
-   // printf("%s %d %f\n",c1.name,c1.seat,c1.milege);
+   car c1={.seat=5,.name="Hero",.milege=65};
+   printf("%s %d %f\n",c1.name,c1.seat,c1.milege);
 
     int n;
     printf("Total Data want to Enter : ");
