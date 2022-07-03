@@ -1,3 +1,0 @@
-# C-plus-plus
-
-Nothing
