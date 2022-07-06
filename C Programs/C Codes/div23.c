@@ -10,5 +10,7 @@ int main(){
 
     printf("Sum : %d",sum);
     printf("\nAverage : %d",sum/flag);
+
+    
     return 0;
 }
